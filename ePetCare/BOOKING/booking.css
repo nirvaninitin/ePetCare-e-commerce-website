@@ -1,0 +1,87 @@
+*
+{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: url(../IMG/BOOKINGBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+}
+
+
+nav ul 
+{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a.active 
+{
+    color: #ffd500;
+}
+
+header 
+{
+    background-color: #4F6F52;
+    padding: 20px;
+}
+
+.form-box{
+  display: flex;
+  justify-content: end;
+}
+.container {
+  margin: 100PX;
+  max-width: 400px;
+  padding: 20px;
+  background-color:  rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+}
+input, select, button {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}

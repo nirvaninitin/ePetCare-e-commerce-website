@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Form</title>
+   <link rel="stylesheet" href="aform.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="../HOME/home2.html" class="active">Home</a></li>
+            <li><a href="../ABOUT/about.html">About Us</a></li>
+            <li><a href="../CONTACT/contact.html">Contact</a></li>
+            <li><a href="../LOGIN/login.html">Login</a></li>
+            <li><a href="../SIGN-IN/regi.html">Sign Up</a></li>
+
+          </ul>
+        </nav>
+      </header>
+
+
+<div class="container">
+    <h2>Adopt a Pet</h2>
+    <br>
+    <form action="aform.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="pet">Pet to Adopt:</label>
+        <select id="pet" name="pet" required>
+            <option value="Dog">Tiger</option>
+            <option value="Cat">Pillu</option>
+            <option value="Bird">Rocky</option>
+            <option value="Other">Sara</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>

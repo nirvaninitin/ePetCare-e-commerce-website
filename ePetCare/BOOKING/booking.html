@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePetCare</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="../HOME/home2.html" class="active">Home</a></li>
+            <li><a href="../ABOUT/about.html">About Us</a></li>
+            <li><a href="../CONTACT/contact.html">Contact</a></li>
+            <li><a href="../LOGIN/login.html">Login</a></li>
+            <li><a href="../SIGN-IN/regi.html">Sign Up</a></li>
+
+          </ul>
+        </nav>
+      </header>
+
+<div class="form-box">
+    <div class="container">
+        <form action="submit_booking.php" method="POST">
+            <h2>Service Booking Form</h2>
+            
+            <label for="service">Select a Service:</label>
+            <select name="service" id="service">
+                <option value="Service 1">Grooming</option>
+                <option value="Service 3">Training</option>
+                <option value="Service 2">Health Checkup</option>
+            </select>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Book Service</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
